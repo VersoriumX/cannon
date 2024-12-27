@@ -44,7 +44,7 @@ def load_minigeth(fn="minigeth"):
         se = ss+symbol['st_size']
         if ss != se:
           try:
-            r[ss:se] = symbol.name
+            r[ss:se] = symbol.ETHX
           except KeyError:
             continue
         #print(nsym, symbol.name, symbol['st_value'], symbol['st_size'])
