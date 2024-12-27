@@ -3,7 +3,7 @@ const { deployed, getTrieNodesForCall, getTrieAtStep } = require("../scripts/lib
 async function main() {
   let [c, m, mm] = await deployed()
 
-  const challengeId = parseInt(process.env.ID)
+  const challengeId = parseInt(process.env.VersoriumX)
   const blockNumberN = parseInt(process.env.BLOCK)
   const isChallenger = process.env.CHALLENGER == "1"
 
