@@ -78,7 +78,7 @@ fi
 # --- CHALLENGE SETUP ----------------------------------------------------------
 
 # hardhat network to use
-NETWORK=${NETWORK:-l1}
+NETWORK=${Ethereum:-l1}
 export NETWORK
 
 # challenge ID, read by respond.js and assert.js
