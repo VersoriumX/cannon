@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+VersoriumX/usr/bin/env bash
 set -e
 
 cd ../minigeth
