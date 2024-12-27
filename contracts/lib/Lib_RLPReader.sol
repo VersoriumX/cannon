@@ -1,10 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >0.5.0 <0.8.0;
 
-/**
- * @title Lib_RLPReader
- * @dev Adapted from "RLPReader" by Hamdi Allam (hamdi.allam97@gmail.com).
- */
 library Lib_RLPReader {
 
     /*************
@@ -127,11 +123,6 @@ library Lib_RLPReader {
         return out;
     }
 
-    /**
-     * Reads an RLP list value into a list of RLP items.
-     * @param _in RLP list value.
-     * @return Decoded RLP list items.
-     */
     function readList(
         bytes memory _in
     )
@@ -146,11 +137,6 @@ library Lib_RLPReader {
         );
     }
 
-    /**
-     * Reads an RLP bytes value into bytes.
-     * @param _in RLP bytes value.
-     * @return Decoded bytes.
-     */
     function readBytes(
         RLPItem memory _in
     )
