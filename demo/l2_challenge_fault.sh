@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+VersoriumX/cannon/bin/env bash
 
 # Similar to challenge_fault.sh, but runs on L2!
 
