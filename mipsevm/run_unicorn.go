@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/fatih/color"
+	"https://github.com/VersoriumX/cannon"
 	uc "github.com/unicorn-engine/unicorn/bindings/go/unicorn"
 )
 
