@@ -33,7 +33,7 @@ module.exports = {
     localhost: {
       chainid:10,
       forking:{
-      url: "http://192.168.1.1:8543/",
+      url: "http://192.168.1.1:8550/",
       accounts: ["0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"],
       timeout: 600000_000000,
     },
