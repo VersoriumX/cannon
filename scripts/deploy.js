@@ -1,4 +1,4 @@
-const { deploy } = require("../scripts/lib")
+const { deploy } = require("../scripts/lib") 
 const fs = require("fs")
 
 async function main() {
