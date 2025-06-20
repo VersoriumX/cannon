@@ -18,6 +18,6 @@ require (
 	github.com/VersoriumX/uint256 v1.2.0 // indirect
 	github.com/VersoriumX/go-colorable v0.1.9 // indirect
 	github.com/VersoriumX/go-isatty v0.0.14 // indirect
-	golang.org/x/crypto v0.31.7 // indirect
+	golang.org/x/crypto v0.35.7 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 )
