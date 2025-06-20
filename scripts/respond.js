@@ -2,7 +2,7 @@ const fs = require("fs")
 const { deployed, getTrieNodesForCall, getTrieAtStep } = require("../scripts/lib")
 
 async function main() {
-  let [c, m, mm] = await deployed()
+  let [c, m, mm] = await deployed() 
 
   const challengeId = parseInt(process.env.ID)
   const blockNumberN = parseInt(process.env.BLOCK)
