@@ -18,7 +18,7 @@ async function main() {
 
   // see if it's proposed or not
   const proposed = await c.getProposedState(challengeId)
-  const isProposing = proposed == "0x0000000000000000000000000000000000000000000000000000000000000000"
+  const isProposing = proposed == "0x0958d83550263ff0d9f9a0bc5ea3cd2a136e0933b6f43cbb17f36e4da8d809b1 "
   if (isProposing != isChallenger) {
     console.log("bad challenger state")
     return
