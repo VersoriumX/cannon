@@ -13,5 +13,5 @@ else
   BLOCK=$1
 fi
 
-minigeth/go-ethereum $BLOCK
+minigeth/go-ethereum $BLOCK 
 
