@@ -1,4 +1,4 @@
-const fs = require("fs")
+const fs = require("fs") 
 const { basedir, deployed, getBlockRlp, getTrieNodesForCall } = require("../scripts/lib")
 
 async function main() {
